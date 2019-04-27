@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+
+}
+
+body{
+	background-image: url('imgs/Amazing3.jpg');
+	background-size: 200vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Noto Serif JP', serif;
+}
+
+
+.mini_body{
+	margin: 0 auto;
+	width: 80%;
+	/*background-color: white;*/
+}
+
+/* TOP */
+
+
+#topp{
+	background-color: #F2FEE7;
+	align-items: center;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 15px;
+	border-bottom: 3px solid black;;
+}
+
+
+
+.topp_right{
+	padding: 18px;
+	font-size: 26px;
+}
+.topp_left{
+	display: inline-flex;
+}
+
+
+.avatar{
+	position: absolute;
+	left: 150px;
+	top: 30px;
+}
+.intro-text{
+	font-family: 'Merienda One', cursive;
+	font-size: 30px;
+	padding-bottom: 11px;
+	padding-left: 20px;
+	margin-left: 90px;
+	position: relative;
+}
+.intro-text .status{
+	font-family: 'Raleway', relative;
+	color: gray;
+	font-size: 16px;
+}
+
+
+.nav_link{
+	font-size: 20px;
+	padding: 39px 15px;
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+.nav_link:hover{
+	border-bottom: 3px solid #D35400;
+	color: #D35400;
+}
+
+/*Content*/
+.content{
+	background-color: #F2FEE7;
+	margin: 0 auto;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.posts{
+	margin: 0 auto;
+	width: 100%;
+}
+.posts_head{
+	background-color: #E7EAEA;
+	margin: 0 auto;
+	align-items: center;
+	padding: 20px;
+}
+.posts_context{
+	text-indent: 30px;
+	word-spacing: 5px;
+	font-size: 18px;
+	line-height: 35px;
+	margin: 0 auto;
+	align-items: center;
+	padding: 0px 20px;
+}
+.more{
+	font-size: 20px;
+	color: #046E24;
+	padding: 20px;
+}
+.more:hover{
+	color: #D35400;
+}
+.date{
+	font-family: sans-serif;
+	font-size: 18px;
+	margin: 10px;
+	color: gray;
+}
+
+
+/*Footer*/
+.footer{
+	border-top: 30px solid #A9ED98;
+	display: flex;
+	margin: 0 auto;
+	/*align-items: center;*/
+	padding: 10px;
+	background-color: #F2FEE7;
+}
+.others{
+	border-right: 1px solid gray;
+	text-align: center;
+	display: inline-flex;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.others a{
+	font-size: 18px;
+	padding: 10px;
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+.others a img:hover{
+	transition: 2s;
+	background-color: #FFC867;
+}
+.conclusion{
+	padding-left: 20px;
+	word-spacing: 3px;
+	text-indent: 30px;
+	line-height: 25px;
+	width: 100%;
+	display: block;
+}
+.copyright{
+	color: gray;
+	background-color: #A9ED98;
+	padding: 4px;
+}
+
+
+/*About me*/
+
+.about{
+	margin: 0 auto;
+	align-items: center;
+	padding: 0px 30px;
+	word-spacing: 4px;
+	line-height: 45px;
+	font-size: 18px;
+}
+
+.about b{
+	font-size: 20px;
+}
+
